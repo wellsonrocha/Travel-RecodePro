@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+body {
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #badef6 90px), repeating-linear-gradient(#d5e3ed, #d5e3ed);
+    background-color: #badef6;
+    background-repeat: repeat;
+    background-size: cover;  
+    background-color: #d7e5f0;
+}
+
+/* -------------------------- NavBar1 --------------------------- */
+
+
+.nav_icons {
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    margin: 0 10px 0 10px;
+}
+
+#navbar_style {
+    background-color: #eef7ff;
+    box-shadow: 1px 1px 50px #A1ABB3; 
+}
+#logonameimg {
+    width: 120px;
+}
+#logoname {
+    font-family: 'Homemade Apple', cursive;
+}
+#navbar_itens {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+/* --------------------------- NavBar02 --------------------------- */
+
+
+#navbar2_style {
+    background-color: #eef7ff;
+
+    margin: 50px 0 50px 0;
+    padding: 20px 10px;
+
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 5px #90C7F0;
+}
+
+.btn_style {
+    width: 450px;
+
+    margin: 15px 0;
+}
+
+/* -------------------- Main --------------------- */
+.container-custom {
+    padding: 10px 200px;
+}
+
+@media screen and (max-width: 1100px) {
+    .container-custom {
+        padding: 10px 100px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .container-custom {
+        padding: 10px 20px;
+    }
+}
+    
+.title-contact {
+    color: #425B6E;
+    text-align: center; 
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 45px 0px;
+    text-shadow: 1px 1px 10px #D7E5F0;
+}
+.title-contact h3 {
+    font-size: 35px;
+}
+.title-contact p {
+    font-size: 20px;
+}
+
+.contatos-card {
+
+}
+    
+
+/* --------------------footer--------------------- */
+
+footer {
+    background-color: #eef7ff00;
+    opacity: 0.6;
+
+    box-shadow: 1px 1px 50px #8ea4b6; 
+    width: auto;
+    height: 150px;   
+
+    margin-top: 100px;
+}

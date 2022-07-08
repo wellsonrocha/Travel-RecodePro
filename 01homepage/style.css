@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+body {
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #badef6 90px), repeating-linear-gradient(#d5e3ed, #d5e3ed);
+    background-color: #badef6;
+    background-repeat: repeat;
+    background-color: #d7e5f0;
+}
+
+/* --------------------------- Carousel --------------------------- */
+
+.carousel-item h5 {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.carousel-item p {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    text-shadow: 2px 2px 5px black;
+}
+
+/* --------------------------- NavBar01 --------------------------- */
+
+
+.nav_icons {
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    margin: 0 10px 0 10px;
+}
+
+#navbar_style {
+    background-color: #eef7ff;
+    box-shadow: 1px 1px 50px #A1ABB3;
+    
+}
+
+#logonameimg {
+    width: 120px;
+}
+
+#logoname {
+    font-family: 'Homemade Apple', cursive;
+}
+
+#navbar_itens {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* --------------------------- NavBar02 --------------------------- */
+
+
+#navbar2_style {
+    background-color: #eef7ff;
+
+    margin: 50px 0 50px 0;
+    padding: 20px 10px;
+
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 5px #90C7F0;
+}
+
+.btn_style {
+    width: 450px;
+
+    margin: 15px 0;
+}
+
+/* --------------------footer--------------------- */
+
+footer {
+    background-color: #eef7ff00;
+    opacity: 0.6;
+    box-shadow: 1px 1px 50px #8ea4b6;
+
+    width: 100%;
+    height: 150px;   
+
+    margin-top: 100px;
+}
+
+

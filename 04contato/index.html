@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title> Travel Plus </title>
+    <link rel="icon" type="image/png" href="../00images/identidade/favicon_logo.ico"/>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <nav id="navbar_style" class="px-3 fs-5 navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+
+            <a id="logoname" class="navbar-brand px-3 fs-4" href="#">
+                <img id="logonameimg" src="../00images/identidade/logo_name2.png">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                <ul id="navbar_itens " class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-6" href="../01homepage/index.html">
+                            <img class="nav_icons" src="../00images/icones/homeicon.png" alt="..." />
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="../02destinos/index.html">
+                            <img class="nav_icons" src="../00images/icones/localicon.png" alt="..."/>
+                            Destinos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="../03pacotes/index.html" >
+                            <img class="nav_icons" src="../00images/icones/pacoteicon.png" alt="..." />
+                            Pacotes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-primary"  aria-current="page"  href="#"> 
+                            <img class="nav_icons" src="../00images/icones/contatoicon.png" alt="..." />
+                            Contato 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary px-5 position-relative">
+                            Perfil
+                            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                              <span class="visually-hidden">New alerts</span>
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+                
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- NavBar de Pesquisa -->
+
+    <div class="container">
+        <nav id="navbar2_style" class="navbar px-3 fs-5 navbar-light">
+            <form class="d-flex">
+                <form class="d-flex">
+                    <label class="label mx-2"for="search1"> <img src="../00images/icones/origemicon.png" width="50px"> </label>
+                    <input class="form-control my-2" id="search1 "type="search" placeholder="Local de Origem" aria-label="Search">
+                     <label class="label mx-2"for="search2"> <img src="../00images/icones/destino.png" width="50px"> </label>
+                    <input class="form-control my-2" id= "search2" type="search" placeholder="Procurar Destino" aria-label="Search">
+                </form>
+                <button class="btn_style btn btn-primary px-5 " type="submit"> Buscar Passagem </button>
+            </form>
+        </nav>
+    </div>
+    <!-- Fim NavBar Pesquisa  -->
+    
+    <div class="h3 title-contact">
+        <h3> PRECISA DE AJUDA? </h3>
+        <p>  ENTRAREMOS EM CONTATO. </p>
+    </div>
+
+    <!-- Formulario de Contato -->
+    <div class="container">
+        <form class="row-g3 form-control bg-light">
+            <div class="container-custom">
+
+                <div class="mb-3 col-lg-12">    
+                    <label for="exampleInputEmail1" class="form-label fs-5 text-primary fst-italic"> Email de contato. </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text text-secondary fst-italic">
+                        Enviaremos a resposta diretamente para seu email.
+                    </div>
+                </div>
+                <div class="mb-3 col-lg-12 form-floating"> 
+                    <textarea class="form-control" placeholder="..." id="mensagem-area" style="height: 100px;">
+                    </textarea>
+                    <label for="mensagem-area" class="form-label fs-6 text-primary fst-italic"> Deixe sua mensagem: </label>
+                </div>
+                <button type="submit" class="btn btn-primary px-5 mb-3"> Enviar </button>
+            </div>
+        </form>
+    </div>
+   <!-- Infelizmente estou com 0 ideias pro contato, simples, mas esta otimo para um protótipo -->
+    <!-- Fim do Formulario de contato -->
+
+
+   <!--  <main class="main-contact">
+        <form class="form-contact">
+            <label class="entry-label" for="name">Nome Completo</label>
+            <input class="entry" type="text" name="" id="name" required>
+
+            <label class="entry-label" for="email">Email</label>
+            <input class="entry" type="email" name="" id="email" required>
+
+            <label class="entry-label" for="phone">Número para contato</label>
+            <input class="entry" type="tel" name="" id="phone" required>
+
+            <label class="entry-label" for="message">Deixe aqui sua mensagem</label>
+            <textarea class="entry" name="" id="message" cols="30" rows="10"></textarea>
+
+            <div class="div-entry">
+                <p class="entry-label"> Como prefere nosso contato?</p>
+                <label class="entry-label" for="email-choice"><input type="radio" name="contact-choice"
+                        id="email-choice">Email</label>
+
+                <label class="entry-label" for="phone-choice"><input type="radio" name="contact-choice"
+                        id="phone-choice">Telefone</label>
+
+                <label class="entry-label" for="whatsapp-choice" lang="en"><input type="radio" name="contact-choice"
+                        id="whatsapp-choice">Whatsapp</label>
+            </div>
+            <label class="entry-label" for="day-period">Em qual horário prefere ser atendido?</label>
+            <select class="entry" name="day-period" id="">
+                <option value="none">---Selecione aqui</option>
+                <option value="morning">Manhã</option>
+                <option value="afternoon">Tarde</option>
+                <option value="evening">Noite</option>
+            </select>
+
+            <label for="check-mailing" class="entry-label" id="checkbox">Gostaria de receber nossas novidades por email?
+                <input type="checkbox" name="" id="check-mailing"></label>
+
+            <input class="entry" type="submit" value="Enviar formulário">
+        </form>
+    </main> -->
+
+    <footer class="footer-style d-block bg-light">
+        <div class="container"> 
+            
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
